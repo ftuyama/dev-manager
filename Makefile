@@ -9,6 +9,9 @@ lint: bundler
 run: bundler
 	bundle exec ruby main.rb
 
+test: bundler
+	bundle exec rake test
+
 # Private - ensure gems are up-to-date
 bundler:
 	@bundle check>/dev/null || bundle install
