@@ -3,13 +3,17 @@ install:
 	@bundle -v >/dev/null 2>&1 || gem install bundler
 	bundle check || bundle install
 
+build:
+	cd web; yarn build
+	mv web/dist/* docs
+
 lint: bundler
 	bundle exec rubocop
 
 run: bundler
 	bundle exec ruby main.rb
 
-web: yarner
+web:
 	cd web; yarn serve
 
 test: bundler
@@ -19,8 +23,4 @@ test: bundler
 bundler:
 	@bundle check>/dev/null || bundle install
 
-# Private - ensure web dependencies are up-to-date
-yarner:
-	@yarner yarn
-
-.PHONY: install lint run bundler yarner front
+.PHONY: install lint run bundler front build
