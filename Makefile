@@ -9,6 +9,9 @@ lint: bundler
 run: bundler
 	bundle exec ruby main.rb
 
+web: yarner
+	cd web; yarn serve
+
 test: bundler
 	bundle exec rake test
 
@@ -16,4 +19,7 @@ test: bundler
 bundler:
 	@bundle check>/dev/null || bundle install
 
-.PHONY: install lint run bundler
+# Private - ensure web dependencies are up-to-date
+	@yarner yarn
+
+.PHONY: install lint run bundler yarner front
