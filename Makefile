@@ -24,4 +24,4 @@ test: bundler
 bundler:
 	@bundle check>/dev/null || bundle install
 
-.PHONY: install lint run bundler front build
+.PHONY: install lint run bundler web build
