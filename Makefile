@@ -20,6 +20,7 @@ bundler:
 	@bundle check>/dev/null || bundle install
 
 # Private - ensure web dependencies are up-to-date
+yarner:
 	@yarner yarn
 
 .PHONY: install lint run bundler yarner front
