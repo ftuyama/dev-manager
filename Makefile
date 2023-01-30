@@ -4,6 +4,7 @@ install:
 	bundle check || bundle install
 
 build:
+	rm -rf docs/*
 	cd web; yarn build
 	mv web/dist/* docs
 
