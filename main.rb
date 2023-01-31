@@ -1,5 +1,3 @@
-require 'dotenv'
-require_relative 'lib/dev_manager'
+require_relative 'lib/dev-manager'
 
-Dotenv.load
 DevManager.generate_report(ARGV)

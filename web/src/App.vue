@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App" />
   <PerformanceChart />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import PerformanceChart from './components/PerformanceChart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     PerformanceChart
   }
 }
