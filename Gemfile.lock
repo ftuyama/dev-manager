@@ -49,6 +49,8 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.17.0)
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
     multi_xml (0.6.0)
     multipart-post (2.3.0)
     oauth (0.6.2)
@@ -115,6 +117,7 @@ DEPENDENCIES
   jira-ruby
   m
   minitest
+  mocha
   pry
   pry-byebug
   rerun

@@ -8,6 +8,7 @@ gem 'slack-ruby-client'
 group :development, :test do
   gem "m"
   gem "minitest"
+  gem "mocha"
   gem 'pry'
   gem 'pry-byebug'
   gem 'rerun'
