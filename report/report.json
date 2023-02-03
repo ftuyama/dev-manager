@@ -4,7 +4,7 @@
     "data": [
       95,
       100,
-      94,
+      100,
       100,
       100,
       100
@@ -21,8 +21,8 @@
     "data": [
       25,
       60,
-      50,
-      47,
+      42,
+      56,
       8,
       0
     ],
@@ -38,8 +38,8 @@
     "data": [
       15,
       60,
-      12,
-      14,
+      42,
+      56,
       8,
       0
     ],
@@ -55,25 +55,25 @@
     "data": [
       100,
       91,
-      100,
-      53,
+      42,
+      39,
       16,
       41
     ],
     "backgroundColor": "rgba(156, 22, 233, 0.2)",
-    "borderColor": "rgb(54, 162, 235)",
-    "pointBackgroundColor": "rgb(54, 162, 235)",
+    "borderColor": "rgb(156, 22, 233)",
+    "pointBackgroundColor": "rgb(156, 22, 233)",
     "pointBorderColor": "#fff",
     "pointHoverBackgroundColor": "#fff",
-    "pointHoverBorderColor": "rgb(54, 162, 235)"
+    "pointHoverBorderColor": "rgb(156, 22, 233)"
   },
   {
     "label": "Jonathan",
     "data": [
       5,
       30,
-      66,
-      0,
+      42,
+      39,
       16,
       8
     ],
@@ -89,8 +89,8 @@
     "data": [
       25,
       78,
-      14,
-      0,
+      42,
+      39,
       8,
       0
     ],

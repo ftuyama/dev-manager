@@ -53,8 +53,8 @@ module DevManager
 
       Gitlab.user_merge_requests(
         created_after: start_of_last_30_days,
+        author_id: GITLAB_DEV_IDS[dev_index],
         scope: :all,
-        author_id: GITLAB_DEV_IDS[dev_index]
       )
     end
 

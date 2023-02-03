@@ -20,26 +20,30 @@ module DevManager
     def fetch_dev_tickets(dev_index)
       return [] if ENV['JIRA_TOKEN'].blank?
 
-      # Fetch tickets assigned to the developer in the last 14 days
+      # Fetch tickets assigned to the developer in the last days
       assignee = JIRA_DEV_USERS[dev_index]
-      jql = "assignee = #{assignee} AND updated >= '#{start_of_last_30_days}'"
+      jql = "assignee = #{assignee} AND created >= '#{start_of_last_30_days}'"
       @client.Issue.jql(jql)
     end
 
     def get_jira_points(issues)
-      issues.map do |issue|
-        if issue.fields[ENV['JIRA_TICKET_POINT_FIELD']].present?
-          issue.fields[ENV['JIRA_TICKET_POINT_FIELD']].to_i
-        else
-          4 # average pointing
-        end
-      end
+      issues.map { |i| issue_points(i) }
+    end
+
+    def issue_points(issue)
+      points = issue.fields[ENV['JIRA_TICKET_POINT_FIELD']]
+
+      points.present? ? points.to_i : 3 # average pointing
     end
 
     def get_jira_issue_labels(issues)
       issues.flat_map do |issue|
         issue.fields["labels"]
       end.uniq
+    end
+
+    def debug_issues(issues)
+      puts (issues.map { |i| "#{issue_points(i)} #{i.fields['summary']}" })
     end
   end
 end
