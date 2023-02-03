@@ -15,6 +15,8 @@ module DevManager
     end
 
     def fetch_tickets
+      return [] if ENV['JIRA_PASSWORD'].blank?
+
       # Fetch tickets assigned to the developer in the last 14 days
       assignee = ENV["JIRA_USER"]
       start_of_last_14_days = (Date.today - 14).to_s

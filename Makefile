@@ -14,6 +14,9 @@ lint: bundler
 run: bundler
 	bundle exec ruby main.rb
 
+setup: bundler
+	bundle exec ruby setup.rb
+
 web:
 	cd web; yarn serve
 
@@ -24,4 +27,4 @@ test: bundler
 bundler:
 	@bundle check>/dev/null || bundle install
 
-.PHONY: install lint run bundler web build
+.PHONY: install lint run bundler web build setup

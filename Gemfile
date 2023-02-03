@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'activesupport'
 gem 'dotenv'
 gem 'gitlab'
 gem 'jira-ruby'

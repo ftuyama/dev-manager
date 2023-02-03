@@ -112,6 +112,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  activesupport
   dotenv
   gitlab
   jira-ruby
