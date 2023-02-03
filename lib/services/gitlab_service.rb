@@ -3,10 +3,12 @@ require 'json'
 require 'parallel'
 
 module DevManager
-  class GitlabService
+  class GitlabService < SingletonService
     GITLAB_DEV_IDS = JSON.parse(ENV['GITLAB_DEV_IDS'] || "[]")
 
     def initialize
+      super
+
       Gitlab.configure do |config|
         config.endpoint       = ENV['GITLAB_URL']
         config.private_token  = ENV['GITLAB_TOKEN']
@@ -46,6 +48,16 @@ module DevManager
       end.flatten
     end
 
+    def fetch_dev_merge_requests(dev_index)
+      return [] if ENV['GITLAB_TOKEN'].blank?
+
+      Gitlab.user_merge_requests(
+        created_after: start_of_last_30_days,
+        scope: :all,
+        author_id: GITLAB_DEV_IDS[dev_index]
+      )
+    end
+
     def fetch_dev_comments(dev_index, merge_requests = nil)
       merge_requests ||= fetch_merge_requests
 
@@ -56,12 +68,6 @@ module DevManager
           comment if comment.author['id'] == GITLAB_DEV_IDS[dev_index]
         end
       end.compact
-    end
-
-    def fetch_dev_merge_requests(dev_index)
-      return [] if ENV['GITLAB_TOKEN'].blank?
-
-      Gitlab.user_merge_requests(state: :opened, scope: :all, author_id: GITLAB_DEV_IDS[dev_index])
     end
   end
 end

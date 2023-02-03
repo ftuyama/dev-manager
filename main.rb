@@ -1,3 +1,7 @@
 require_relative 'lib/dev-manager'
 
-DevManager.generate_report(ARGV)
+if ARGV.pop == "setup"
+  DevManager::Setup.setup
+else
+  DevManager.generate_report
+end

@@ -2,7 +2,7 @@ require 'json'
 
 module DevManager
   class Report
-    include ColorHelper
+    include ChartHelper
 
     def initialize(dev_reports = [])
       @dev_reports = dev_reports
@@ -39,7 +39,7 @@ module DevManager
         {
           "label": dev_report["Name"],
           "data": dev_report["Skills"].values,
-        }.merge(COLORS[i])
+        }.merge(CHART_CONFIG[i])
       end
     end
   end

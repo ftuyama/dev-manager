@@ -6,10 +6,10 @@ Dev manager tool to grab developer's metrics from Slack, JIRA and Gitlab
 
 ## How to use it
 
-First, configure your credentials in a .env file:
+First, you can configure your settings by running:
 
 ```shell
-touch .env
+make setup
 ```
 
 You can generate a new report by running:

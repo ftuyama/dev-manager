@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img class="vue-logo" alt="Vue logo" src="../assets/logo.png">
     <canvas id="radar-chart" width="400" height="400"></canvas>
   </div>
 </template>
@@ -45,11 +45,15 @@ export default {
 </script>
 
 <style scoped>
+.vue-logo {
+    position: absolute;
+    left: 5%;
+}
 canvas {
   margin: 0 auto;
   display: block;
   box-sizing: border-box;
-  height: 400px !important;
-  width: 400px !important;
+  height: 700px !important;
+  width: 700px !important;
 }
 </style>

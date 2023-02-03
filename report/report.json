@@ -2,69 +2,103 @@
   {
     "label": "Felipe",
     "data": [
-      33,
+      95,
       100,
-      0,
-      0,
+      94,
+      100,
       100,
       100
     ],
-    "backgroundColor": "rgba(179,181,198,0.2)",
-    "borderColor": "rgba(179,181,198,1)",
-    "pointBackgroundColor": "rgba(179,181,198,1)",
+    "backgroundColor": "rgba(179, 181, 198, 0.2)",
+    "borderColor": "rgba(179, 181, 198, 1)",
+    "pointBackgroundColor": "rgba(179, 181, 198, 1)",
     "pointBorderColor": "#fff",
     "pointHoverBackgroundColor": "#fff",
-    "pointHoverBorderColor": "rgba(179,181,198,1)"
+    "pointHoverBorderColor": "rgba(179, 181, 198, 1)"
   },
   {
     "label": "Luan",
     "data": [
-      0,
-      0,
-      0,
-      0,
-      0,
+      25,
+      60,
+      50,
+      47,
+      8,
       0
     ],
-    "backgroundColor": "rgba(255,99,132,0.2)",
-    "borderColor": "rgba(255,99,132,1)",
-    "pointBackgroundColor": "rgba(255,99,132,1)",
+    "backgroundColor": "rgba(255, 99, 132, 0.2)",
+    "borderColor": "rgba(255, 99, 132, 1)",
+    "pointBackgroundColor": "rgba(255, 99, 132, 1)",
     "pointBorderColor": "#fff",
     "pointHoverBackgroundColor": "#fff",
-    "pointHoverBorderColor": "rgba(255,99,132,1)"
+    "pointHoverBorderColor": "rgba(255, 99, 132, 1)"
   },
   {
     "label": "Caiam",
     "data": [
-      33,
-      0,
-      0,
-      0,
-      9,
+      15,
+      60,
+      12,
+      14,
+      8,
       0
     ],
-    "backgroundColor": "rgba(132,99,255,0.2)",
-    "borderColor": "rgba(132,99,255,1)",
-    "pointBackgroundColor": "rgba(132,99,255,1)",
+    "backgroundColor": "rgba(54, 162, 235, 0.2)",
+    "borderColor": "rgba(54, 162, 235, 1)",
+    "pointBackgroundColor": "rgba(54, 162, 235, 1)",
     "pointBorderColor": "#fff",
     "pointHoverBackgroundColor": "#fff",
-    "pointHoverBorderColor": "rgba(132,99,255,1)"
+    "pointHoverBorderColor": "rgba(54, 162, 235, 1)"
   },
   {
     "label": "Matheus",
     "data": [
       100,
-      0,
-      0,
-      0,
-      0,
-      0
+      91,
+      100,
+      53,
+      16,
+      41
     ],
-    "backgroundColor": "rgba(132,255,99,0.2)",
-    "borderColor": "rgba(132,255,99,1)",
-    "pointBackgroundColor": "rgba(132,255,99,1)",
+    "backgroundColor": "rgba(156, 22, 233, 0.2)",
+    "borderColor": "rgb(54, 162, 235)",
+    "pointBackgroundColor": "rgb(54, 162, 235)",
     "pointBorderColor": "#fff",
     "pointHoverBackgroundColor": "#fff",
-    "pointHoverBorderColor": "rgba(132,255,99,1)"
+    "pointHoverBorderColor": "rgb(54, 162, 235)"
+  },
+  {
+    "label": "Jonathan",
+    "data": [
+      5,
+      30,
+      66,
+      0,
+      16,
+      8
+    ],
+    "backgroundColor": "rgba(131, 172, 129, 0.2)",
+    "borderColor": "rgb(131, 172, 129)",
+    "pointBackgroundColor": "rgb(131, 172, 129)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgb(131, 172, 129)"
+  },
+  {
+    "label": "Cesar",
+    "data": [
+      25,
+      78,
+      14,
+      0,
+      8,
+      0
+    ],
+    "backgroundColor": "rgba(225, 138, 9, 0.2)",
+    "borderColor": "rgb(225, 138, 9)",
+    "pointBackgroundColor": "rgb(225, 138, 9)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgb(225, 138, 9)"
   }
 ]

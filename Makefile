@@ -15,7 +15,7 @@ run: bundler
 	bundle exec ruby main.rb
 
 setup: bundler
-	bundle exec ruby setup.rb
+	bundle exec ruby main.rb setup
 
 web:
 	cd web; yarn serve

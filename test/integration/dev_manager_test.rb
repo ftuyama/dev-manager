@@ -6,7 +6,10 @@ module DevManager
     def test_generate_report
       GitlabService.any_instance.expects(:fetch_dev_merge_requests).returns([]).once
       GitlabService.any_instance.expects(:fetch_dev_comments).returns([]).once
-      JiraService.any_instance.expects(:fetch_tickets).returns([]).once
+
+      JiraService.any_instance.expects(:fetch_dev_tickets).returns([]).once
+      JiraService.any_instance.expects(:get_jira_points).returns([]).once
+
       SlackService.any_instance.expects(:fetch_dev_messages).returns([]).once
       SlackService.any_instance.expects(:fetch_dev_reactions).returns(0).once
 
