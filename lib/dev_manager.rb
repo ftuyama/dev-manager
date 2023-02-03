@@ -12,8 +12,8 @@ module DevManager
       gitlab_mrs = GitlabService.new.fetch_dev_merge_requests(i)
       gitlab_comments = GitlabService.new.fetch_dev_comments(i, gitlab_mrs)
       jira_tickets = JiraService.new.fetch_tickets
-      slack_messages = SlackService.new.fetch_messages(i)
-      slack_reactions = SlackService.new.fetch_reactions(i, slack_messages)
+      slack_messages = SlackService.new.fetch_dev_messages(i)
+      slack_reactions = SlackService.new.fetch_dev_reactions(i, slack_messages)
 
       {
         "Name"          => dev,

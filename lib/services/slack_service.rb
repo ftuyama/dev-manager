@@ -29,7 +29,7 @@ module DevManager
       end['id']
     end
 
-    def fetch_messages(dev_index)
+    def fetch_dev_messages(dev_index)
       return [] if ENV['SLACK_TOKEN'].blank?
 
       messages = @client.conversations_history(channel: ENV['SLACK_CHANNEL'])
@@ -39,7 +39,7 @@ module DevManager
       end.compact
     end
 
-    def fetch_reactions(dev_index, messages = [])
+    def fetch_dev_reactions(dev_index, messages = [])
       return 0 if ENV['SLACK_TOKEN'].blank?
 
       messages ||= fetch_messages(dev_index)
