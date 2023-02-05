@@ -4,9 +4,11 @@
 
 Dev manager tool to grab developer's metrics from Slack, JIRA and Gitlab
 
+![Report](https://github.com/ftuyama/dev-manager/blob/main/report/report.png | width=300)
+
 ## How to use it
 
-First, you can configure your settings by running:
+First, you can configure your API settings by running the interactive setup:
 
 ```shell
 make setup
@@ -22,6 +24,12 @@ You can visualize the web UI by running:
 
 ```shell
 make web
+```
+
+You can also fork this repository and build the github.io page using:
+
+```shell
+make build
 ```
 
 ## Backend Architecture

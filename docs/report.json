@@ -1,0 +1,104 @@
+[
+  {
+    "label": "Frankie",
+    "data": [
+      95,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "backgroundColor": "rgba(179, 181, 198, 0.2)",
+    "borderColor": "rgba(179, 181, 198, 1)",
+    "pointBackgroundColor": "rgba(179, 181, 198, 1)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgba(179, 181, 198, 1)"
+  },
+  {
+    "label": "Leo",
+    "data": [
+      25,
+      60,
+      42,
+      56,
+      8,
+      0
+    ],
+    "backgroundColor": "rgba(255, 99, 132, 0.2)",
+    "borderColor": "rgba(255, 99, 132, 1)",
+    "pointBackgroundColor": "rgba(255, 99, 132, 1)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgba(255, 99, 132, 1)"
+  },
+  {
+    "label": "Charlie",
+    "data": [
+      15,
+      60,
+      42,
+      56,
+      8,
+      0
+    ],
+    "backgroundColor": "rgba(54, 162, 235, 0.2)",
+    "borderColor": "rgba(54, 162, 235, 1)",
+    "pointBackgroundColor": "rgba(54, 162, 235, 1)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgba(54, 162, 235, 1)"
+  },
+  {
+    "label": "Max",
+    "data": [
+      100,
+      91,
+      42,
+      39,
+      16,
+      41
+    ],
+    "backgroundColor": "rgba(156, 22, 233, 0.2)",
+    "borderColor": "rgb(156, 22, 233)",
+    "pointBackgroundColor": "rgb(156, 22, 233)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgb(156, 22, 233)"
+  },
+  {
+    "label": "Jackson",
+    "data": [
+      5,
+      30,
+      42,
+      39,
+      16,
+      8
+    ],
+    "backgroundColor": "rgba(131, 172, 129, 0.2)",
+    "borderColor": "rgb(131, 172, 129)",
+    "pointBackgroundColor": "rgb(131, 172, 129)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgb(131, 172, 129)"
+  },
+  {
+    "label": "Carter",
+    "data": [
+      25,
+      78,
+      42,
+      39,
+      8,
+      0
+    ],
+    "backgroundColor": "rgba(225, 138, 9, 0.2)",
+    "borderColor": "rgb(225, 138, 9)",
+    "pointBackgroundColor": "rgb(225, 138, 9)",
+    "pointBorderColor": "#fff",
+    "pointHoverBackgroundColor": "#fff",
+    "pointHoverBorderColor": "rgb(225, 138, 9)"
+  }
+]
