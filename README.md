@@ -4,7 +4,7 @@
 
 Dev manager tool to grab developer's metrics from Slack, JIRA and Gitlab
 
-![Report](https://github.com/ftuyama/dev-manager/blob/main/report/report.png | width=300)
+<img src="https://github.com/ftuyama/dev-manager/blob/main/report/report.png" width="500">
 
 ## How to use it
 
