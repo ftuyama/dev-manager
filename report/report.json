@@ -1,6 +1,6 @@
 [
   {
-    "label": "Felipe",
+    "label": "Frankie",
     "data": [
       95,
       100,
@@ -17,7 +17,7 @@
     "pointHoverBorderColor": "rgba(179, 181, 198, 1)"
   },
   {
-    "label": "Luan",
+    "label": "Leo",
     "data": [
       25,
       60,
@@ -34,7 +34,7 @@
     "pointHoverBorderColor": "rgba(255, 99, 132, 1)"
   },
   {
-    "label": "Caiam",
+    "label": "Charlie",
     "data": [
       15,
       60,
@@ -51,7 +51,7 @@
     "pointHoverBorderColor": "rgba(54, 162, 235, 1)"
   },
   {
-    "label": "Matheus",
+    "label": "Max",
     "data": [
       100,
       91,
@@ -68,7 +68,7 @@
     "pointHoverBorderColor": "rgb(156, 22, 233)"
   },
   {
-    "label": "Jonathan",
+    "label": "Jackson",
     "data": [
       5,
       30,
@@ -85,7 +85,7 @@
     "pointHoverBorderColor": "rgb(131, 172, 129)"
   },
   {
-    "label": "Cesar",
+    "label": "Carter",
     "data": [
       25,
       78,
