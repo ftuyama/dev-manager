@@ -15,7 +15,7 @@ module DevManager
       @client = Slack::Web::Client.new
     end
 
-    def find_users(usernames)
+    def fetch_users(usernames)
       members = @client.users_list['members']
       usernames.map do |username|
         members.find do |user|

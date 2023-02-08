@@ -61,7 +61,7 @@ module DevManager
         return puts "Please run setup again" if ENV['GITLAB_TOKEN'].blank?
 
         puts "Please type the Gitlab usernames (separated by ','):"
-        users = GitlabService.instance.find_users(get_input_list)
+        users = GitlabService.instance.fetch_users(get_input_list)
         write_to_env_file('GITLAB_DEV_IDS', users.to_s)
       end
 
@@ -119,7 +119,7 @@ module DevManager
 
       if ENV['SLACK_DEV_IDS'].blank?
         puts "Please enter the Slack usernames (separated by ','):"
-        users = SlackService.instance.find_users(get_input_list)
+        users = SlackService.instance.fetch_users(get_input_list)
         write_to_env_file('SLACK_DEV_IDS', users)
       end
     end

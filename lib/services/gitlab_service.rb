@@ -15,7 +15,7 @@ module DevManager
       end
     end
 
-    def find_users(usernames)
+    def fetch_users(usernames)
       usernames.map do |username|
         Gitlab.user_search(username)[0]["id"]
       end.compact
@@ -26,14 +26,6 @@ module DevManager
       Gitlab.search_projects(name, { order_by: 'last_activity_at' }).find do |project|
         project["namespace"]["name"] == namespace
       end["id"]
-    end
-
-    def fetch_users
-      6.times.map do |page|
-        Gitlab.users(page: page, per_page: 100).map do |u|
-          [u.id, u.name]
-        end
-      end.flatten
     end
 
     def fetch_sample_merge_request
