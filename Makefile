@@ -18,7 +18,7 @@ setup: bundler
 	bundle exec ruby main.rb setup
 
 web:
-	cd web; yarn serve
+	cd web; yarn dev
 
 test: bundler
 	bundle exec rake test
