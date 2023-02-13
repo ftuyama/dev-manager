@@ -63,5 +63,7 @@
   import TreeViewAdvancedPreview from './TreeViewAdvancedPreview.vue'
   import TreeViewEditablePreview from './TreeViewEditablePreview.vue'
 
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
 </script>

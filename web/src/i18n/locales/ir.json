@@ -245,9 +245,6 @@
       "title": "ورودی ها",
       "upload": "بارگذاری"
     },
-    "mediumEditor": {
-      "title": "ویرایشگر مدیوم"
-    },
     "selects": {
       "country": "انتخاب کشور",
       "countryMulti": "انتخاب همزان چند کشور",
@@ -292,7 +289,6 @@
     "dashboard": "پیشخوان",
     "formElements": "المان های فرم",
     "forms": "فرم ها",
-    "mediumEditor": "ویرایشگر مدیوم",
     "grid": "شبکه بندی",
     "icons": "آيکون ها",
     "cards": "کارت ها",

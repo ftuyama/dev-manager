@@ -40,7 +40,8 @@
   import vStickyScroll from './StickyScroll'
   import { useColors } from 'vuestic-ui'
   import { ref } from 'vue'
-
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
   const { colors } = useColors()
 

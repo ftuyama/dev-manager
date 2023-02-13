@@ -117,8 +117,10 @@
 <script setup lang="ts">
   import { ref } from 'vue'
 
+  import { useI18n } from 'vue-i18n'
   import { ToastPosition, useToast } from 'vuestic-ui'
   import ToastPositionPicker from './ToastPositionPicker.vue'
+  const { t } = useI18n()
 
 
   const { init } = useToast()

@@ -106,9 +106,6 @@
       "title": "Entrada",
       "upload": "UPLOAD"
     },
-    "mediumEditor": {
-      "title": "Editor Medium"
-    },
     "selects": {
       "country": "Selecionar Região",
       "countryMulti": "Selecionar Multiplas Regiões",
@@ -147,7 +144,6 @@
     "dashboard": "Painel principal",
     "formElements": "Elementos de Formulários",
     "forms": "Formulários",
-    "mediumEditor": "Editor Medium",
     "grid": "Grid",
     "icons": "Icones",
     "cards": "Cards",

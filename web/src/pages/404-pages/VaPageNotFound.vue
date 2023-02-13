@@ -23,11 +23,11 @@
   import MadeByComponent from './MadeByComponent.vue'
   import Wallpaper from './Wallpaper.vue'
   import { useColors } from 'vuestic-ui'
-
+  import { useI18n } from 'vue-i18n'
   import { computed } from 'vue'
 
   const { colors } = useColors()
-
+  const { t } = useI18n()
 
   defineProps<{
     withoutButton?: boolean

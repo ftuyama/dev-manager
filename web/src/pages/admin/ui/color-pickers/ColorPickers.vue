@@ -83,6 +83,8 @@
 
 <script setup>
   import { useColors } from 'vuestic-ui'
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
   const topSimpleSquareColor = '#f81953'
   const topSliderSquareColor = '#34495e'

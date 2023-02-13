@@ -38,7 +38,7 @@
           <va-button icon="print" plain @click="printChart" />
         </va-card-title>
         <va-card-content v-if="doughnutChartDataGenerated">
-          <va-chart ref="doughnutChart" class="chart chart--donut" :data="doughnutChartDataGenerated" type="doughnut" />
+          <va-chart ref="doughnutChart" :data="doughnutChartDataGenerated" type="doughnut" class="chart chart--donut" />
         </va-card-content>
       </va-card>
     </div>

@@ -48,11 +48,7 @@ export default {
           name: 'form-elements',
           displayName: 'menu.formElements',
         },
-        {
-          name: 'medium-editor',
-          displayName: 'menu.mediumEditor',
-        },
-      ],
+    ],
     },
     {
       name: 'tables',

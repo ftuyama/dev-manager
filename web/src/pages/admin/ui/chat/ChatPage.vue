@@ -16,8 +16,11 @@
 <script setup lang="ts">
   import Chat from './Chat.vue'
 
+  import { useI18n } from 'vue-i18n'
+
   import { ref } from 'vue'
 
+  const { t } = useI18n()
 
   const chatMessages = ref([
     {

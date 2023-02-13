@@ -58,6 +58,7 @@
 
 <script setup lang="ts">
   import { computed, ref } from 'vue'
+  import { useI18n } from 'vue-i18n'
 
   import { useColors } from 'vuestic-ui'
   import * as spinners from 'epic-spinners'
@@ -65,6 +66,7 @@
   import VaIconFaster from '../../../../components/icons/VaIconFaster.vue'
   import VaIconSlower from '../../../../components/icons/VaIconSlower.vue'
 
+  const { t } = useI18n()
   type SpinnersItems = keyof typeof spinners
 
 

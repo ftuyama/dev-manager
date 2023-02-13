@@ -62,10 +62,10 @@
 
 <script setup lang="ts">
   import { ref } from 'vue'
-
+  import { useI18n } from 'vue-i18n'
   import data from '../../../../data/tables/markup-table/data.json'
 
-
+  const { t } = useI18n()
 
   const users = ref(data.slice(0, 8))
 

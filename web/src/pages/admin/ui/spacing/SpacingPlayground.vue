@@ -72,6 +72,8 @@
 
   import ColorPresentation from '../colors/color-presentation/ColorPresentation.vue'
 
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
 
   const directionList = ref(['a', 'y', 'x', 't', 'r', 'b', 'l'])

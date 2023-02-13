@@ -57,14 +57,6 @@ const routes: Array<RouteRecordRaw> = [
               wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/inputs',
             },
           },
-          {
-            name: 'medium-editor',
-            path: 'medium-editor',
-            component: () => import('../pages/admin/forms/medium-editor/MediumEditor.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Medium-Editor',
-            },
-          },
         ],
       },
       {

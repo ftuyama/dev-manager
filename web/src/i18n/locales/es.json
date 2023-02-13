@@ -99,9 +99,6 @@
       "title": "Inputs",
       "upload": "SUBIR"
     },
-    "mediumEditor": {
-      "title": "Medium Editor"
-    },
     "selects": {
       "country": "País Select",
       "countryMulti": "País Multi Select",
@@ -137,7 +134,6 @@
     "dashboard": "Dashboard",
     "formElements": "Elementos de un Formulario",
     "forms": "Formularios",
-    "mediumEditor": "Medium Editor",
     "grid": "Grid",
     "icons": "Iconos",
     "cards": "Cards",

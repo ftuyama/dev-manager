@@ -166,6 +166,7 @@
 <script setup lang="ts">
   import { ref } from 'vue'
 
+  import { useI18n } from 'vue-i18n'
   import { useToast } from 'vuestic-ui'
   import data from './data.json'
 
@@ -177,6 +178,7 @@
   const appBanners = ref(false)
   const banners = ref(false)
   const notifications = ref(true)
+  const { t } = useI18n()
 
   function getGenderIcon(gender: string) {
     return gender === 'male' ? 'mars' : 'venus'

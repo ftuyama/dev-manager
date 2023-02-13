@@ -253,8 +253,8 @@
 <script setup lang="ts">
   import { ref } from 'vue'
   import CountriesList from '../data/CountriesList'
-
-
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
   const countriesList = ref(CountriesList)
   const chosenCountry = ref('')
