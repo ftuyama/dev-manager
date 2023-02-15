@@ -1,25 +1,19 @@
 <template>
-  <PerformanceChart />
+  <router-view />
 </template>
 
-<script>
-import PerformanceChart from './components/PerformanceChart.vue'
+<style lang="scss">
+  @import 'scss/main.scss';
 
-export default {
-  name: 'App',
-  components: {
-    PerformanceChart
+  #app {
+    font-family: "Titillium Web", 'Source Sans Pro', Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
   }
-}
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    margin: 0;
+  }
 </style>
+
