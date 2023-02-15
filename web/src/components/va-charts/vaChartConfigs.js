@@ -44,5 +44,6 @@ export const chartTypesMap = {
   bubble: defineAsyncComponent(() => import('./chart-types/BubbleChart.vue')),
   line: defineAsyncComponent(() => import('./chart-types/LineChart.vue')),
   bar: defineAsyncComponent(() => import('./chart-types/BarChart.vue')),
+  radar: defineAsyncComponent(() => import('./chart-types/RadarChart.vue')),
   'horizontal-bar': defineAsyncComponent(() => import('./chart-types/HorizontalBarChart.vue')),
 }

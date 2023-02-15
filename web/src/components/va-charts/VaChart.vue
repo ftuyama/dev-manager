@@ -10,7 +10,7 @@
 
   const props = defineProps<{
     data: TChartData
-    options?: TChartOptions<'line' | 'bar' | 'bubble' | 'doughnut' | 'pie'>
+    options?: TChartOptions<'line' | 'bar' | 'bubble' | 'doughnut' | 'pie' | 'radar'>
     type: keyof typeof chartTypesMap
   }>()
 

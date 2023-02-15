@@ -250,5 +250,10 @@
   },
   "chat": {
     "title": "Gráficos"
+  },
+  "dev_manager": {
+    "dashboard": {
+      "dev_performance": "Desempenho do Desenvolvedor"
+    }
   }
 }

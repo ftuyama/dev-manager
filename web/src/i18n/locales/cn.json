@@ -315,5 +315,10 @@
       "action1": "行为 1",
       "action2": "行为 2"
     }
+  },
+  "dev_manager": {
+    "dashboard": {
+      "dev_performance": "Dev Performance"
+    }
   }
 }

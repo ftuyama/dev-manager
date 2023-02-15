@@ -12,6 +12,17 @@ const routes: Array<RouteRecordRaw> = [
     redirect: { name: 'dashboard' },
   },
   {
+    name: 'devManager',
+    path: '/dev-manager',
+    component: AppLayout,
+    children: [{
+        name: 'main',
+        path: '/',
+        component: () => import('../pages/dev-manager/Dashboard.vue'),
+      },
+    ],
+  },
+  {
     name: 'admin',
     path: '/admin',
     component: AppLayout,

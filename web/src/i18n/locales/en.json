@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "This page’s gone fishing.",
+    "text": "If you feel that it’s not right, please send us a message at ",
+    "back_button": "Back to dashboard"
+  },
   "auth": {
     "agree": "I agree to",
     "createAccount": "Create account",
@@ -11,11 +16,6 @@
     "keep_logged_in": "Keep me logged in",
     "termsOfUse": "Terms of Use.",
     "reset_password": "Reset password"
-  },
-  "404": {
-    "title": "This page’s gone fishing.",
-    "text": "If you feel that it’s not right, please send us a message at ",
-    "back_button": "Back to dashboard"
   },
   "rating": {
     "singleIcon": "Single Icon",
@@ -575,5 +575,10 @@
     "overflow": "Tabs Overflow",
     "hidden": "Tabs with Hidden slider",
     "grow": "Tabs Grow"
+  },
+  "dev_manager": {
+    "dashboard": {
+      "dev_performance": "Dev Performance"
+    }
   }
 }

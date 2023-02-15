@@ -33,7 +33,7 @@
       {
         options: () => [
           {
-            code: 'gb',
+            code: 'en',
             name: 'english',
           },
           {
@@ -41,7 +41,7 @@
             name: 'spanish',
           },
           {
-            code: 'br',
+            code: 'pt-br',
             name: 'brazilian_portuguese',
           },
           {

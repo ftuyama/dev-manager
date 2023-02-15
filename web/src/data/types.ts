@@ -9,5 +9,6 @@ export type TBarChartData = ChartData<'bar'>
 export type TBubbleChartData = ChartData<'bubble'>
 export type TDoughnutChartData = ChartData<'doughnut'>
 export type TPieChartData = ChartData<'pie'>
+export type TRadarChartData = ChartData<'radar'>
 
-export type TChartData = TLineChartData | TBarChartData | TBubbleChartData | TDoughnutChartData | TPieChartData
+export type TChartData = TLineChartData | TBarChartData | TBubbleChartData | TDoughnutChartData | TPieChartData | TRadarChartData

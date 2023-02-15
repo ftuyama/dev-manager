@@ -250,5 +250,10 @@
     "language": "Cambiar Idioma",
     "profile": "Mi Perfil",
     "logout": "Cerrar Sesión"
+  },
+  "dev_manager": {
+    "dashboard": {
+      "dev_performance": "Rendimiento del desarrollador"
+    }
   }
 }
