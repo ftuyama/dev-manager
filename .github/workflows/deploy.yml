@@ -21,9 +21,11 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        working-directory: ./web
 
       - name: Build project
-        run: cd web; npm run build
+        run: npm run build
+        working-directory: ./web
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
