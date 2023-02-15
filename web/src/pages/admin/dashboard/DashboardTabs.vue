@@ -9,9 +9,6 @@
           <va-tab name="OverviewTab">
             {{ t('dashboard.tabs.overview.title') }}
           </va-tab>
-          <va-tab name="BankDetailsTab">
-            {{ t('dashboard.tabs.bankDetails.title') }}
-          </va-tab>
         </template>
       </va-tabs>
       <va-separator />
@@ -27,8 +24,7 @@
   const { t } = useI18n()
 
   const tabs = {
-    OverviewTab: defineAsyncComponent(() => import('./dashboard-tabs/OverviewTab.vue')),
-    BankDetailsTab: defineAsyncComponent(() => import('./dashboard-tabs/BankDetailsTab.vue')),
+    OverviewTab: defineAsyncComponent(() => import('./dashboard-tabs/OverviewTab.vue'))
   }
 
   const emit = defineEmits<{

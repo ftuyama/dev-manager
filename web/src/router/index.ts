@@ -9,11 +9,11 @@ import UIRoute from '../pages/admin/ui/route'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/:catchAll(.*)',
-    redirect: { name: 'dashboard' },
+    redirect: { name: 'main' },
   },
   {
     name: 'devManager',
-    path: '/dev-manager',
+    path: '/',
     component: AppLayout,
     children: [{
         name: 'main',
