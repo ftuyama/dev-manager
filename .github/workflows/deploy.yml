@@ -27,6 +27,9 @@ jobs:
       - name: Build project
         run: cd web; npm run build
 
+      - name: Copy report
+        run: cp report .web/dist
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
         with:
