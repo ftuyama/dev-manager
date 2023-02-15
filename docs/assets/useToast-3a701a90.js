@@ -1,1 +1,0 @@
-import{O as l,P as a,Q as c,R as i}from"./index-d698358d.js";const I=()=>{var s;const e=(s=l())==null?void 0:s.appContext,n=[];return{init:o=>{const t=a(o,e);return t&&n.push(t),t},close:o=>c(o),closeAll:(o=!1)=>i(o?void 0:e),closeAllCreatedInThisHook:()=>{n.forEach(o=>c(o))}}};export{I as u};
