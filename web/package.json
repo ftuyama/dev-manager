@@ -16,7 +16,7 @@
     "chart.js": "^4.2.0",
     "epic-spinners": "^2.0.0",
     "flag-icons": "^6.6.6",
-    "ionicons": "^4.6.3",
+    "ionicons": "^6.0.0",
     "pinia": "^2.0.30",
     "sass": "^1.58.0",
     "vue": "^3.2.45",
