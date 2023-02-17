@@ -15,9 +15,21 @@ module DevManager
       end
     end
 
+    def fetch_user(username)
+      search_result = Gitlab.user_search(username)
+
+      raise "User #{username} not found!" if search_result.empty?
+
+      search_result[0]
+    end
+
     def fetch_users(usernames)
       usernames.map do |username|
-        Gitlab.user_search(username)[0]["id"]
+        search_result = Gitlab.user_search(username)
+
+        raise "User #{username} not found!" if search_result.empty?
+
+        search_result[0]["id"]
       end.compact
     end
 

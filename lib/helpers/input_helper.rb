@@ -1,15 +1,21 @@
 module DevManager
   module InputHelper
+    def prompt_input(string)
+      puts string if !string.empty?
+    end
 
-    def get_input
+    def get_input(string = "")
+      prompt_input(string)
       gets.chomp
     end
 
-    def get_input_list
+    def get_input_list(string = "")
+      prompt_input(string)
       get_input.split(',')
     end
 
-    def get_letter_input
+    def get_letter_input(string = "")
+      prompt_input(string)
       gets.chomp.downcase
     end
 
