@@ -1,0 +1,1 @@
+import{C as e,p as n,a as o,b as r,A as s,c as l,P as p}from"./index-21ab2927.js";import{d as c,b as i,h as u,g as h}from"./index-d5837d88.js";const f=c({__name:"PieChart",props:{chartData:null,chartOptions:null},setup(a){const t=a;return e.register(n,o,r,s,l),(m,g)=>(i(),u(h(p),{options:a.chartOptions,data:t.chartData},null,8,["options","data"]))}});export{f as default};
