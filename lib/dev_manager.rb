@@ -28,8 +28,8 @@ module DevManager
           "Code Review"   => gitlab_comments.count,
           "Versatility"   => jira_tickets.count,
           "Delivery"      => jira_points.sum,
-          "Charisma"      => slack_messages.count,
-          "Communication" => slack_reactions,
+          "Charisma"      => slack_reactions,
+          "Communication" => slack_messages.count,
         },
       }
     end

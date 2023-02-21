@@ -5,8 +5,8 @@ module DevManager
       (Date.today - 30).to_s
     end
 
-    def timestamp_180_days_ago
-      (Time.now - 180.days).to_i
+    def timestamp_30_days_ago
+      (Time.now - 30.days).to_i
     end
 
   end

@@ -38,7 +38,7 @@ module DevManager
 
     def fetch_messages(channel)
       @messages ||= {}
-      @messages[channel] ||= @client.conversations_history(channel: channel, oldest: timestamp_180_days_ago)
+      @messages[channel] ||= @client.conversations_history(channel: channel, oldest: timestamp_30_days_ago)
       @messages[channel]
     end
 
