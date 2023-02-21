@@ -1,1 +1,0 @@
-import{C as e,p as r,a as n,b as s,g as o,L as l,c as p,h as c}from"./index-21ab2927.js";import{d as i,b as u,h,g}from"./index-d5837d88.js";const B=i({__name:"BarChart",props:{chartData:null,chartOptions:null},setup(a){const t=a;return e.register(r,n,s,o,l,p),(m,_)=>(u(),h(g(c),{options:a.chartOptions,data:t.chartData},null,8,["options","data"]))}});export{B as default};

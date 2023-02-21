@@ -1,1 +1,0 @@
-import{C as e,p as n,a as o,b as s,d as r,L as l,B as p}from"./index-21ab2927.js";import{d as i,b as c,h as u,g as h}from"./index-d5837d88.js";const f=i({__name:"BubbleChart",props:{chartData:null,chartOptions:null},setup(a){const t=a;return e.register(n,o,s,r,l),(m,d)=>(c(),u(h(p),{options:a.chartOptions,data:t.chartData},null,8,["options","data"]))}});export{f as default};
