@@ -36,7 +36,7 @@
 
   async function loadPerformanceData() {
     loading.value = true
-    const { data } = await axios.get('/report.json')
+    const { data } = await axios.get('report.json')
     performanceData = data;
     loading.value = false
   }
