@@ -1,1 +1,0 @@
-import{C as n,p as o,a as e,b as r,A as s,c,D as l}from"./index-25e206b9.js";import{d as p,o as u,c as i,u as h}from"./index-7fe30ce6.js";const f=p({__name:"DoughnutChart",props:{chartData:null,chartOptions:null},setup(t){const a=t;return n.register(o,e,r,s,c),(g,m)=>(u(),i(h(l),{options:t.chartOptions,data:a.chartData},null,8,["options","data"]))}});export{f as default};
