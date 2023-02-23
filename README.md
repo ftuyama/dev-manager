@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml/badge.svg?branch=main&event=push)](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml)
 
-The Dev Manager Project is a tool designed to help development managers track the performance of their developers by collecting data from Slack, JIRA, and Github.
+The Dev Manager Project is a tool designed to help development managers track the performance of their developers by collecting data from Slack, JIRA, and Gitlab.
 
 This project provides an easy-to-use dashboard that displays key metrics related to the developers' work such as the number of pull requests, commits, and comments made, as well as the number of tickets assigned and completed.
 
