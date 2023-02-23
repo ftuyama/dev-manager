@@ -333,7 +333,8 @@
     "line-maps": "Line Maps",
     "login-singup": "Login/Signup",
     "404-pages": "404 Pages",
-    "faq": "Faq"
+    "faq": "Faq",
+    "dev_manager": "Dev Manager"
   },
   "messages": {
     "all": "See all messages",
@@ -414,7 +415,7 @@
     }
   },
   "navbar": {
-    "messageUs": "Web development inquiries:",
+    "messageUs": "Dev Manager Dashboard",
     "repository": "GitHub Repo"
   },
   "notifications": {
@@ -578,7 +579,9 @@
   },
   "dev_manager": {
     "dashboard": {
-      "dev_performance": "Dev Performance"
+      "dev_performance": "Dev Performance",
+      "team_performance": "Team performance",
+      "avg_performance": "Average performance"
     }
   }
 }

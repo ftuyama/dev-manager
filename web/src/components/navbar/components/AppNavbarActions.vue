@@ -3,28 +3,30 @@
     <color-dropdown class="app-navbar-actions__item" />
     <message-dropdown class="app-navbar-actions__item" />
     <notification-dropdown class="app-navbar-actions__item" />
-    <!-- <settings-dropdown class="app-navbar-actions__item" /> -->
     <language-dropdown class="app-navbar-actions__item" />
-    <profile-dropdown class="app-navbar-actions__item app-navbar-actions__item--profile">
-      <span>{{ userName }}</span>
-    </profile-dropdown>
+    <va-button
+        href="https://github.com/ftuyama/dev-manager"
+        color="#F0F"
+        class="app-navbar-actions__item"
+        icon="github"
+        target="_blank">
+    </va-button>
   </div>
 </template>
 
 <script setup lang="ts">
   import LanguageDropdown from './dropdowns/LanguageDropdown.vue'
-  import ProfileDropdown from './dropdowns/ProfileDropdown.vue'
   import NotificationDropdown from './dropdowns/NotificationDropdown.vue'
   import MessageDropdown from './dropdowns/MessageDropdown.vue'
   import ColorDropdown from './dropdowns/ColorDropdown.vue'
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
   withDefaults(
     defineProps<{
-      userName?: string
       isTopBar?: boolean
     }>(),
     {
-      userName: '',
       isTopBar: false,
     },
   )

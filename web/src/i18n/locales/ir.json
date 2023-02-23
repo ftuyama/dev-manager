@@ -316,7 +316,8 @@
     "spacing": "فاصله گذاری",
     "sliders": "اسلایدر",
     "popovers": "ابزار راهنما",
-    "chat": "گفتگو"
+    "chat": "گفتگو",
+    "dev_manager": "Dev Manager"
   },
   "messages": {
     "all": "مشاهده همه پیام ها",
@@ -378,7 +379,7 @@
     "badges": "نشان ها"
   },
   "navbar": {
-    "messageUs": "سوالات مربوط به این افزونه را ما بپرسید",
+    "messageUs": "Dev Manager Dashboard",
     "repository": "مخزن گیت هاب"
   },
   "notifications": {
@@ -505,7 +506,9 @@
   },
   "dev_manager": {
     "dashboard": {
-      "dev_performance": "Dev Performance"
+      "dev_performance": "Dev Performance",
+      "team_performance": "Team performance",
+      "avg_performance": "Average performance"
     }
   }
 }

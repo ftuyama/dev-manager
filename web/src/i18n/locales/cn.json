@@ -171,7 +171,8 @@
     "treeView": "树视图",
     "dateTimePickers": "日期时间选择器",
     "fileUpload": "文件上传",
-    "chat": "聊天"
+    "chat": "聊天",
+    "dev_manager": "Dev Manager"
   },
   "messages": {
     "all": "查看全部消息",
@@ -223,7 +224,7 @@
     "colored": "彩色的"
   },
   "navbar": {
-    "messageUs": "需要Web开发帮助吗？请联系我们。"
+    "messageUs": "Dev Manager Dashboard"
   },
   "notifications": {
     "all": "查看所有通知",
@@ -318,7 +319,9 @@
   },
   "dev_manager": {
     "dashboard": {
-      "dev_performance": "Dev Performance"
+      "dev_performance": "Dev Performance",
+      "team_performance": "Team performance",
+      "avg_performance": "Average performance"
     }
   }
 }

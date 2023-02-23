@@ -151,7 +151,8 @@
     "typography": "Tipografía",
     "uiElements": "Elementos UI",
     "colors": "Colores",
-    "chat": "Chat"
+    "chat": "Chat",
+    "dev_manager": "Gerente de desarrollo"
   },
   "messages": {
     "all": "Ver todos los mensajes",
@@ -192,7 +193,7 @@
     "modalText": "El tipo de archivo es incorrecto!"
   },
   "navbar": {
-    "messageUs": "Envíenos sus preguntas o comentarios a"
+    "messageUs": "Panel del administrador de desarrollo"
   },
   "notifications": {
     "all": "Ver todos los notificaciones",
@@ -253,7 +254,9 @@
   },
   "dev_manager": {
     "dashboard": {
-      "dev_performance": "Rendimiento del desarrollador"
+      "dev_performance": "Rendimiento del desarrollador",
+      "team_performance": "El rendimiento del equipo",
+      "avg_performance": "Rendimiento medio"
     }
   }
 }

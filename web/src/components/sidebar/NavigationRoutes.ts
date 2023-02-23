@@ -12,6 +12,13 @@ export default {
   },
   routes: [
     {
+      name: 'main',
+      displayName: 'menu.dev_manager',
+      meta: {
+        icon: 'fa fa-home',
+      },
+    },
+    {
       name: 'dashboard',
       displayName: 'menu.dashboard',
       meta: {

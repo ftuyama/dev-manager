@@ -64,12 +64,14 @@
 </template>
 
 <script setup lang="ts">
+  import { useI18n } from 'vue-i18n'
   import { useColors } from 'vuestic-ui'
 
   import { computed, ref } from 'vue'
   import { IconSet } from './types'
 
   const { colors } = useColors()
+  const { t } = useI18n()
 
 
   const props = defineProps<{

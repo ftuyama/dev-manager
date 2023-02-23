@@ -1,5 +1,14 @@
 export default [
   {
+    categoryName: 'Dev Manager',
+    items: [
+      {
+        itemName: 'Dev Manager',
+        itemLink: '/',
+      },
+    ],
+  },
+  {
     categoryName: 'Dashboard',
     items: [
       {

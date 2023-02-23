@@ -163,7 +163,8 @@
     "uiElements": "Elementos UI",
     "treeView": "Árvore de visualização",
     "dateTimePickers": "Selecionar Data e Hora",
-    "chat": "Gráficos"
+    "chat": "Gráficos",
+    "dev_manager": "Gerente de Desenvolvimento"
   },
   "messages": {
     "all": "Ver todas as menssagens",
@@ -185,7 +186,7 @@
     "title": "Modals"
   },
   "navbar": {
-    "messageUs": "Enviar uma pergunta ou feedback para"
+    "messageUs": "Painel do Gerenciador de Desenvolvimento"
   },
   "notifications": {
     "all": "Ver todas as notificações",
@@ -253,7 +254,9 @@
   },
   "dev_manager": {
     "dashboard": {
-      "dev_performance": "Desempenho do Desenvolvedor"
+      "dev_performance": "Desempenho do Desenvolvedor",
+      "team_performance": "Performance da equipe",
+      "avg_performance": "Desempenho médio"
     }
   }
 }

@@ -57,6 +57,11 @@
     )
 
     function getFlagIcon(code: string, size: string) {
+      if (code == "en") {
+        code = "gb"
+      } else if (code == "pt-br") {
+        code = "br"
+      }
       return `flag-icon-${code} ${size}`
     }
   </script>

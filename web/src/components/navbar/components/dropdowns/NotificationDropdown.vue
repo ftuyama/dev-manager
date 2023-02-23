@@ -7,6 +7,9 @@
       />
     </template>
     <va-dropdown-content class="notification-dropdown__content pl-3 pr-3 pt-2 pb-2">
+      <div class="notification-dropdown__item row pt-1 pb-1 mt-2 mb-2">
+        Powered by:
+      </div>
       <div
         v-for="notification in notificationsProxy"
         :key="notification.id"
@@ -20,21 +23,10 @@
           :src="notification.details.avatar"
         />
         <span class="ellipsis" style="max-width: 85%">
-          <span v-if="notification.details.name" class="text--bold">{{ notification.details.name }}</span>
-          {{ t(`notifications.${notification.name}`, { type: notification.details.type }) }}
+          <a :href="notification.link">
+            <span v-if="notification.details.name" class="text--bold">{{ notification.details.name }}</span>
+          </a>
         </span>
-      </div>
-      <div class="row justify--space-between mt-1">
-        <va-button class="md6 mr-2" size="small">{{ t('notifications.all') }}</va-button>
-        <va-button
-          class="md6"
-          size="small"
-          preset="outline"
-          border-color="primary"
-          :disabled="allRead"
-          @click="markAllAsRead"
-          >{{ t('notifications.mark_as_read') }}</va-button
-        >
       </div>
     </va-dropdown-content>
   </va-dropdown>
@@ -48,7 +40,7 @@
   const { t } = useI18n()
 
   interface INotification {
-    name: string
+    link: string
     details: {
       name: string
       avatar: string
@@ -65,24 +57,23 @@
     {
       notifications: () => [
         {
-          name: 'sentMessage',
-          details: { name: 'Vasily S', avatar: 'https://picsum.photos/123' },
+          link: 'https://github.com/epicmaxco/vuestic-admin',
+          details: { name: 'VuesticAdmin', avatar: 'https://avatars.githubusercontent.com/u/30595047?s=200&v=4' },
           unread: true,
           id: 1,
         },
         {
-          name: 'uploadedZip',
+          link: 'https://vuestic.dev/introduction/overview',
           details: {
-            name: 'Oleg M',
-            avatar: 'https://picsum.photos/100',
-            type: 'typography component',
+            name: 'VuesticUI',
+            avatar: 'https://avatars.githubusercontent.com/u/30595047?s=200&v=4',
           },
           unread: true,
           id: 2,
         },
         {
-          name: 'startedTopic',
-          details: { name: 'Andrei H', avatar: 'https://picsum.photos/24' },
+          link: 'https://github.com/vuejs',
+          details: { name: 'VueJs', avatar: 'https://avatars.githubusercontent.com/u/6128107?s=200&v=4' },
           unread: true,
           id: 3,
         },

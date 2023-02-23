@@ -1,4 +1,4 @@
-# dev-manager
+<img src="https://github.com/ftuyama/dev-manager/blob/main/report/logo.png" width="500">
 
 [![Tests](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml/badge.svg?branch=main&event=push)](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml)
 
