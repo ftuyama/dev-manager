@@ -2,7 +2,11 @@
 
 [![Tests](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml/badge.svg?branch=main&event=push)](https://github.com/ftuyama/dev-manager/actions/workflows/test.yml)
 
-Dev manager tool to grab developer's metrics from Slack, JIRA and Gitlab
+The Dev Manager Project is a tool designed to help development managers track the performance of their developers by collecting data from Slack, JIRA, and Github.
+
+This project provides an easy-to-use dashboard that displays key metrics related to the developers' work such as the number of pull requests, commits, and comments made, as well as the number of tickets assigned and completed.
+
+With the help of this tool, managers can easily identify bottlenecks and areas of improvement for their team. It allows managers to drill down into the details of individual developers, identify their strengths and weaknesses, and provide them with targeted feedback and support.
 
 <img src="https://github.com/ftuyama/dev-manager/blob/main/report/report.png" width="500">
 
@@ -24,12 +28,6 @@ You can visualize the web UI by running:
 
 ```shell
 make web
-```
-
-You can also fork this repository and build the github.io page using:
-
-```shell
-make build
 ```
 
 ## Backend Architecture
