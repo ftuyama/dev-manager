@@ -6,9 +6,9 @@
     <language-dropdown class="app-navbar-actions__item" />
     <va-button
         href="https://github.com/ftuyama/dev-manager"
-        color="#F0F"
         class="app-navbar-actions__item"
-        icon="github"
+        color="#000"
+        icon="ion-logo-github"
         target="_blank">
     </va-button>
   </div>
